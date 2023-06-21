@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MazharAlshagoury203908706MobilprogramlamaArasınavProje"
+        tools:targetApi="31">
+        <activity
+            android:name=".yufkatatlisi"
+            android:exported="false" />
+        <activity
+            android:name=".zilepekmezi"
+            android:exported="false" />
+        <activity
+            android:name=".ayvatatlisi"
+            android:exported="false" />
+        <activity
+            android:name=".Tokatdessert"
+            android:exported="false" />
+        <activity
+            android:name=".Bezsucukluhellecorbasi"
+            android:exported="false" />
+        <activity
+            android:name=".Tokatpagaci"
+            android:exported="false" />
+        <activity
+            android:name=".tokatyapragi"
+            android:exported="false" />
+        <activity
+            android:name=".Tokatfood"
+            android:exported="false" />
+        <activity
+            android:name=".Hidirlikkoprusu"
+            android:exported="false" />
+        <activity
+            android:name=".Tokatkalesi"
+            android:exported="false" />
+        <activity
+            android:name=".Alipasacami"
+            android:exported="false" />
+        <activity
+            android:name=".saatkulesi"
+            android:exported="false" />
+        <activity
+            android:name=".Tokat_places"
+            android:exported="false" />
+        <activity
+            android:name=".AboutTokat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
